@@ -1,7 +1,6 @@
 <?php
 
-include __DIR__ . '/functions.php';
-$db = include __DIR__ . '/../database/start.php';
+include __DIR__ . '/begin.php';
 
 $db->create('posts', [
     'title' => $_POST['title']

@@ -1,9 +1,6 @@
 <?php
 
-include __DIR__ . '/const.php';
-include __DIR__ . '/functions.php';
-$db = include __DIR__ . '/../database/start.php';
-include __DIR__ . '/ImageUploader.php';
+include __DIR__ . '/begin.php';
 
 $id = $_GET['id'];
 

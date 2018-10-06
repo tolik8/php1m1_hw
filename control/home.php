@@ -1,8 +1,6 @@
 <?php
 
-include __DIR__ . '/functions.php';
-$db = include __DIR__ . '/../database/start.php';
-include __DIR__ . '/smarty.php';
+include __DIR__ . '/begin.php';
 
 $posts = $db->getAll('posts');
 
